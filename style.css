@@ -15,6 +15,7 @@ body{
     font-family: 'Chakra Petch', sans-serif;
 }
 
+
 .conteudo-principal{
     display: flex;
     flex-direction: column;
@@ -34,6 +35,7 @@ body{
 .titulo-principal span{
     color: var(--verde);
 }
+
 
 .botao{
     font-family: "Chakra Petch", sans-serif;
@@ -62,6 +64,11 @@ body{
 .ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
 }
 
 @media screen and (min-width: 768px) {
